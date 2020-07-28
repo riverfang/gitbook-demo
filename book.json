@@ -1,0 +1,44 @@
+{
+	"title": "gitbook demo",
+	"description": "gitbook demo",
+	"author": "城南花已开",
+	"language": "zh-hans",
+	"livereload": true,
+	"plugins": [
+		"search",
+		"-sharing",
+		"-lunr",
+		"theme-integration"
+	],
+	"pluginsConfig": {
+		"integration": {			
+			"favicon": "/images/favicon.ico",
+			"logo": "/images/result.png",
+			"navs":[
+              {
+              	"name": "gitbook demo",
+              	"target": "blank",
+              	"url": "/"
+              },
+              {
+              	"name": "百度",
+              	"target": "blank",
+              	"url": "http://www.baidu.com"
+              },
+              {
+              	"name": "百度",
+              	"target": "blank",
+              	"url": "http://www.baidu.com"
+              }
+			]	
+		},
+		"plantuml": {
+			"jarPath": "D:\\java\\jdk1.8\\jre\\lib\\plantuml.jar"
+		},
+		"fontsettings": {
+            "theme": "white",
+            "family": "serif",
+            "size": 14
+        }
+	}
+}
